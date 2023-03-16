@@ -1,0 +1,49 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`it should match snapshot 1`] = `
+<div>
+  <div
+    class="flex bg-blue-900 sticky bottom-0 h-16 mr-2 text-white text-sm"
+  >
+    <div
+      class="flex flex-1 items-center p-4"
+    >
+      <div
+        class="flex w-full justify-between text-center"
+      >
+        <div
+          data-testid="numberOfResults"
+        >
+          Number of results: 100
+        </div>
+        <div>
+          © 2023 Brewery Explorer Ltd
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center w-20"
+    >
+      <button
+        class="flex items-center justify-center bg-blue-800 h-full w-full"
+        data-testid="backToTopButton"
+      >
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4.5 10.5L12 3m0 0l7.5 7.5M12 3v18"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;

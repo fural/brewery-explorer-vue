@@ -1,0 +1,40 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`it should match snapshot 1`] = `
+<div>
+  <label
+    class="sm:w-3/5 relative"
+  >
+    <span
+      class="sr-only"
+    >
+      test-search
+    </span>
+    <span
+      class="absolute inset-y-0 left-0 flex items-center pl-2"
+    >
+      <svg
+        class="h-5 w-5"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="{1.5}"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+    <input
+      class="pl-9"
+      name="test-search"
+      placeholder="test-search"
+      title="test-search"
+      type="text"
+    />
+  </label>
+</div>
+`;

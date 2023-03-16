@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #213547;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  @apply overflow-x-hidden overflow-y-hidden m-0;
+}
+
+#app {
+  @apply w-full;
+}
+
+select {
+  appearance: none;
+  background-color: transparent;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+}
+
+input,
+select {
+  @apply text-black placeholder:text-slate-400 bg-white w-full border border-slate-300 rounded-md py-2 pr-3 focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm;
+}
+
+select {
+  @apply cursor-pointer px-4 py-2;
+
+  background: url("/arrow.svg") 96% no-repeat;
+}
+
+select:required:invalid {
+  @apply text-slate-400;
+}
+
+option {
+  @apply text-black;
+}
+
+.scrollbar {
+  @apply scrollbar-thin scrollbar-track-zinc-100 scrollbar-thumb-zinc-200;
+}
